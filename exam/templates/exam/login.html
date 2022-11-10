@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{% static 'css/login.css' %}">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    <link rel="stylesheet" href="{% static 'css/home1.css' %}">
+    
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>  <!--for icons-->
@@ -46,56 +46,58 @@
 
 
 
-      <section>
-        <div id="">
-            <div style="background-color: azure;">
-                <figure className="position-relative">
-                    <img  src="{% static 'images/hom4.png' %}" alt="" width="100%" height="200%">
-                    <figcaption class="fig">
-                        <form class="formstyle ">
-                            <table>
-                                <tr>
-                                    <i class="glyphicon glyphicon-user" style="font-size: 45px;"></i>
-                                </tr><br><br><br><br><br><br><br><br>
-                                <tr>
-                                    <td>Email</td>
-                                    <td><label for=""><input type="text" placeholder="Enter your email" /></td></label>
-                                    
-                                </tr>
-                                <tr>
-                                    <td>Password</td>
-                                    <td><label for=""><input type="password" placeholder="enter your password" /></label></td>
-                                </tr>
-                                <tr>
-                                    <td><button type="submit" id="btn1">LOGIN<i class="glyphicon glyphicon-user"></i></button></td>&nbsp;&nbsp;&nbsp;
-                                     <td><button type="" id="btn2"><a href="{% url 'exam:reg' %}">Sigin<i class='fas fa-user-tie'></i></button></a></td>
-                                </tr>
-                                </table>
-                                </form>
-                    </figcaption>
-                  </figure>
-                
-            </div>
 
-        </div>   
-    </section>
 
-    <section>
+
+     <form class="from1">
+      <div class="container" id="div1">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required><br><br><br>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required><br><br><br>
+    
+        <button type="submit" id="btn5">Login</button>&nbsp;&nbsp;
+        <span class="psw">Forgot <a href="#">password?</a></span><br><br>&nbsp;&nbsp;&nbsp;
+        <span class="psw" style="color: red;">NEW ONE <a href="{% url 'exam:reg' %}" style="color:lightgreen;">SIGN-In</a></span><br>
+      </div>
+    </form><hr>
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
         <div align="center">
             <div>
            <span style="color: palevioletred; font-style: italic; font-size: 15px;">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
+                     rerum dolorem quis animi! Doloribus ex tenetur nam odit ut, error officiis cumque omnis unde voluptatem.
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
                      rerum dolorem quis animi! Doloribus ex tenetur nam odit ut, error officiis cumque omnis unde voluptatem.
     
            </span> <br><br>
                 <h1>Join with us:</h1>
             </div>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="#"><img id="img3" src="{% static 'images/insta.png' %}" alt="" width="40px" height="40px"></a>
+            <a href="#"><img id="img3" src="{% static 'images/face.png' %}" alt="" width="40px" height="40px"></a>
+            <a href="#"><img id="img3" src="{% static 'images/utube.png' %}" alt="" width="40px" height="40px"></a>
+            <a href="#"><img id="img3" src="{% static 'images/wtsapp.png' %}" alt="" width="40px" height="40px"></a>
     
         </div>
-    </section>
+
 </body>
 </html>
