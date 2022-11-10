@@ -1,0 +1,61 @@
+
+
+.formstyle  
+{  
+width: 400px;  
+height: 500px;  
+margin: auto; 
+margin-top: 200px;
+margin-left: 400px;
+border: 3px black solid;  
+border-radius: 5px;  
+padding: 25px;  
+/* background-color: rgb(81, 10, 10); */
+color:brown;
+}
+#btn1{
+    font-size: 16px;
+    margin-left:30px;
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+   color: black;
+    margin-top: 50px;
+}
+#btn1:hover {
+    background-color:lightblue;
+    color: white;
+}
+
+#btn2{
+    font-size: 16px;
+    margin-left:30px;
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+   color: black;
+    margin-top: 50px;
+}
+#btn2:hover {
+    background-color:green;
+    color: white;
+}
+/* #div2{
+    background-image: url('../images/hom4.png');
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+} */
+
+.fig{
+    position:absolute;
+    /* bottom: 2rem; */
+    top: 13rem;
+    text-align: center;
+    margin: 0 5rem;
+    color:aliceblue ;
+    /* font-size: 110px; */
+    font-style: italic;
+
+}

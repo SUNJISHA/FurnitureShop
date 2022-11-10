@@ -1,0 +1,133 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/reg.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home1.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>  <!--for icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--for icons-->
+
+
+
+
+
+</head>
+<body>
+    <section>
+     <div class="icon-bar">
+        
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <h1>HOME DECOR</h1>
+      </div>
+    </section>  
+
+
+
+   <section>
+     <div class="topnav">
+        <img src="{% static 'images\logo11.png' %} " alt="">
+        <a class="active" href="{% url 'exam:home' %}"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="{% url 'exam:login' %}"><i class="glyphicon glyphicon-user"></i></a>
+        <a href="{% url 'exam:cart' %}"><i class="fa fa-shopping-cart" style='font-size:24px'></i></a>
+        <a href="{% url 'exam:about' %}">About</a>
+        <a href="{% url 'exam:shop' %}">Shop</a>
+        <input type="text" placeholder="search..">
+     </div>
+   </section>
+
+
+   <div style="background-color: rgb(227, 217, 205);">
+    <div id="d1">
+        <img src="{% static 'images\reg.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg1.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg2.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg3.png' %}" alt="" height="150px"><br><br><br>
+        <img src="{% static 'images\reg4.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg6.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg7.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg8.png' %}" alt="" height="150px"><br><br><br>
+        <img src="{% static 'images\reg5.png' %}" alt="" height="150px">
+        <img src="{% static 'images\reg9.png' %}" alt="" height="150px">
+        
+    </div>
+    <form class="formstyle">
+        <table>
+            <tr>
+                <td><br><label> Full Name</label> </td>
+                <td><input type="text"  placeholder="Enter your name"/></td>
+                
+            </tr>
+            <tr>
+                <td><br><label>User Name</label></td>
+                <td><input type="text" placeholder="Enter your user name" /></td>
+            </tr>
+            <tr>
+                <td><br><label>Email</label></td>
+                <td><input type="text" placeholder="Enter your email" /></td>
+                
+            </tr>
+            <tr>
+                <td><br><label>PhoneNo</label></td>
+                <td><input type="text" placeholder="Enter phoneNo" /></td>
+            </tr>
+            <tr>
+                <td><br><label>Password</label></td>
+                <td><input type="password" placeholder="enter your password" /></td>
+                
+            </tr>
+            <tr>
+                <td><br><label>Confirm Password</label></td>
+                <td><input type="password" placeholder="Confirm password" /></td>
+
+            </tr>
+            <tr>
+                <td><br><label>Gender</label></td>
+                <td><br><input type="radio"  name="gender" />male
+                    <input type="radio"  name="gender" />Female
+                    <input type="radio"  name="gender" />perfer not say</td>
+            </tr>
+            <tr>
+                <td><br><input type="submit"  size="100" value="Register" id="btn" /></td>
+            </tr>
+           
+        </table>
+       
+          
+        </form>
+        
+   </div>
+
+   <section>
+    <div align="center">
+        <div>
+       <span style="color: palevioletred; font-style: italic; font-size: 15px;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
+                 rerum dolorem quis animi! Doloribus ex tenetur nam odit ut, error officiis cumque omnis unde voluptatem.
+
+       </span> <br><br>
+            <h1>Join with us:</h1>
+        </div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+    </div>
+</section>
+
+
+
+    
+</body>
+</html>

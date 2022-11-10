@@ -1,0 +1,133 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home1.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>  <!--for icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--for icons-->
+
+
+
+
+
+</head>
+<body>
+    <section>
+     <div class="icon-bar">
+        
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <h1>HOME DECOR</h1>
+      </div>
+    </section>  
+
+
+
+   <section>
+     <div class="topnav">
+        <img src="{% static 'images\logo11.png' %} " alt="">
+        <a class="active" href="{% url 'exam:home' %}"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="{% url 'exam:login' %}"><i class="glyphicon glyphicon-user"></i></a>
+        <a href="{% url 'exam:cart' %}"><i class="fa fa-shopping-cart" style='font-size:24px'></i></a>
+        <a href="{% url 'exam:about' %}">About</a>
+        <a href="{% url 'exam:shop' %}">Shop</a>
+        <input type="text" placeholder="search..">
+     </div>
+   </section>
+
+
+   <section>
+    <div>
+        <img src="{% static 'images\about.png' %}" alt="" width="100%">
+    </div>
+   </section>
+
+   <section>
+    <div>
+        <div style="float: right;">
+            
+                <h2 class="h2">Premium Luxury Furniture</h2><br><br>
+                <p>
+                <span style="color: yellow;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+                 <br><br><br>
+                 <span style="color:yellowgreen;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+                 <br><br><br>
+                 <span style="color:greenyellow;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>    
+            </p></div>
+            <img src="{% static 'images\about2.png' %}" alt="" width="700px" height="700px">
+    </div>
+   </section>
+
+   <section>
+    <div style="background-color:lightgrey;">
+        <div style="float: right;">
+            <img src="{% static 'images\about3.png' %}" alt=""width="700px" height="700px">
+
+        </div>
+        <h2 class="h2">Our Vision</h2>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam a cum nisi<br>
+             sed unde mollitia? Praesentium, doloribus iure dicta repellat facilis nulla, accusantium,<br>
+              ullam voluptate obcaecati officia eligendi optio.<br><br><br>
+              <span style="color:red;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+                 <br><br><br>
+                 <span style="color:orangered;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+                 <br><br><br>
+                 <span style="color:orange;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                 Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span><br><br><br>
+                 <span style="color:olivedrab;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                     Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+                     <br><br><br>
+                     <span style="color:blueviolet;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae.<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum<br> aspernatur doloribus eligendi.
+                     Adipisci explicabo ulla<br>m natus magnam quae minus aspernatur.</span>
+            </p>
+
+    </div>
+   </section>
+
+
+   <section>
+    <div align="center">
+        <div>
+       <span style="color: palevioletred; font-style: italic; font-size: 15px;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
+                 rerum dolorem quis animi! Doloribus ex tenetur nam odit ut, error officiis cumque omnis unde voluptatem.
+
+       </span> <br><br>
+            <h1>Join with us:</h1>
+        </div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+    </div>
+</section>
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home1.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>  <!--for icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--for icons-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--footer part-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+
+
+
+
+</head>
+<body>
+    <section>
+     <div class="icon-bar">
+        
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <h1>HOME DECOR</h1>
+      </div>
+    </section>  
+
+
+
+   <section>
+     <div class="topnav">
+        <img src="{% static 'images\logo11.png' %} " alt="">
+        <a class="active" href="{% url 'exam:home' %}"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="{% url 'exam:login' %}"><i class="glyphicon glyphicon-user"></i></a>
+        <a href="{% url 'exam:cart' %}"><i class="fa fa-shopping-cart" style='font-size:24px'></i></a>
+        <a href="{% url 'exam:about' %}">About</a>
+        <a href="{% url 'exam:shop' %}">Shop</a>
+        <input type="text" placeholder="search..">
+     </div>
+   </section>
+
+   <section>
+    <div class="div1">
+        <div class="div2">
+            <table>
+                <tr>
+                 <p>Make Your Home<br /> Comfortable</p> 
+                <img src="{% static 'images\hom1.png' %}" alt="" id="img1">
+               </tr>
+        </div>
+    </div>
+   </section>
+
+
+   <section class="sec3">
+    <div id="div4">
+        <p id="p22">BEST CHOICE FOR YOU</p>
+        <div id="div1">
+            <img src="https://thethemedemo.com/befurniture/wp-content/uploads/2021/05/choice1.png" alt="" width="300px">
+       
+            <img src="https://thethemedemo.com/befurniture/wp-content/uploads/2021/05/choice2.png" alt="" width="300px">
+       
+            <img src="https://thethemedemo.com/befurniture/wp-content/uploads/2021/05/choice3.png" alt="" width="300px">
+        </div>
+    </div>
+   </section><br><br>
+
+
+
+    </div>
+   </section>
+
+   <section>
+    <div>
+        
+    </div>
+   </section>
+
+   <section  class="container">
+    <div >
+        <p id="p22">BEST SELLER <span style="color:#ccc;">NEW PRODUCTS ON SALES</span> </p>
+        <!-- <h1 align="center"><u>Furniture Essentials For Your Home</u></h1><br> -->
+        <div class="d-flex flex-row mb-3">
+            <div class="card p-2" style="width: 18rem;">
+                <img src="{% static 'images/c1.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BookShelves</h5>
+                 
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+   
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/c3.png' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bean Bags</h5>
+          
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+
+<div class="card" style="width: 18rem;">
+    <img src="{% static 'images/c4.png' %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Center Tables</h5>
+    
+      <a href="#" class="btn btn-primary">BUY NOW</a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+</div><hr>
+
+<section>
+    <div align="center">
+        <div>
+       <span style="color: palevioletred; font-style: italic; font-size: 15px;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi odio, optio voluptas quae molestias
+                 rerum dolorem quis animi! Doloribus ex tenetur nam odit ut, error officiis cumque omnis unde voluptatem.
+
+       </span> <br><br>
+            <h1>Join with us:</h1>
+        </div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+    </div>
+</section>
+
+
+
+</body>
+</html>
