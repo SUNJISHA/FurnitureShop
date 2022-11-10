@@ -1,0 +1,1 @@
+web: gunicon furnitureShop.wsgi --log-file -
