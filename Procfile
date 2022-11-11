@@ -1,1 +1,1 @@
-web: gunicon furnitureShop.wsgi --log-file -
+web: gunicorn furnitureShop.wsgi --log-file -
