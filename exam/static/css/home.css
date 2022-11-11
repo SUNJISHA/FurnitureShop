@@ -189,6 +189,48 @@
   }
 
 
+  .parent{
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    height: 280px;
+    width: auto;
+    justify-content: space-around;
+  }
+#f1{
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 20px;
+  background-image:  url('../images/c1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#f2{
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 20px;
+  background-image:  url('../images/reg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#f3{
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 20px;
+  background-image:  url('../images/c3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 
